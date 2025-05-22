@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Guess The Number!</h1>
+    <p>We have selected a random number between 1 and 100. Can you guess it in 10 turns or fewer?</p>
+
+    <form>
+      <input type="number" id="guessField" class="guessField" placeholder="Enter your guess" />
+      <input type="submit" id="subt" value="Submit Guess" class="guessSubmit" />
+    </form>
+
+    <div class="resultParas">
+      <p class="guesses">Previous Guesses: </p>
+      <p class="lastResult">Guesses Remaining: 10</p>
+      <p class="lowOrHi"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

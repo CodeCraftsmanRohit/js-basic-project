@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.game-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #00c9a7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #02b38b;
+}
+
+.guesses,
+.lastResult,
+.lowOrHi {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ffd166;
+}
+
+.button h2 {
+  background-color: #f72585;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button h2:hover {
+  background-color: #c9184a;
+}
